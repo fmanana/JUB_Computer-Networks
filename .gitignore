@@ -1,2 +1,5 @@
 *.zip
 Tex/
+mininet/
+*.gz
+.DS_Store
