@@ -1,0 +1,44 @@
+
+; <<>> DiG 9.10.6 <<>> +trace grader.eecs.jacobs-university.de AAAA
+;; global options: +cmd
+.			377478	IN	NS	i.root-servers.net.
+.			377478	IN	NS	e.root-servers.net.
+.			377478	IN	NS	f.root-servers.net.
+.			377478	IN	NS	k.root-servers.net.
+.			377478	IN	NS	l.root-servers.net.
+.			377478	IN	NS	d.root-servers.net.
+.			377478	IN	NS	g.root-servers.net.
+.			377478	IN	NS	j.root-servers.net.
+.			377478	IN	NS	a.root-servers.net.
+.			377478	IN	NS	m.root-servers.net.
+.			377478	IN	NS	c.root-servers.net.
+.			377478	IN	NS	h.root-servers.net.
+.			377478	IN	NS	b.root-servers.net.
+.			414278	IN	RRSIG	NS 8 0 518400 20190522050000 20190509040000 25266 . yBg5V5MdhPQcGc+FYRa9c7Jxh1tKSrrejQOjbRboWJBOz3+x4GSnS5Aw 1ec77ZhE2GAwLUV9rftRjCfO4R3E2yJ28ht5d5S5KYE2pcmQBaVg7Y21 K5hY/rUqxdH2sTHPK+zPTHX0cNHfVdbBPmzrH1XRShdTA+/Goa9gN2e2 LSUjmS+MQKneTzV+e0gfhbsJS0Qd/pI1RKBofdlDGPDuVSU+EUzB9uI1 0ZYUqVpfls5N/2Stu2QAVKtj2iDY91TI8RxWM9dQurbudFmvBGzkVtDh HzfkZRA/MDF3CaYXugTE003KbQBcppP6K7pM4IlPo+zzgHSyOQ3hw/Tc BqTalg==
+;; Received 1097 bytes from 10.70.0.20#53(10.70.0.20) in 48 ms
+
+de.			172800	IN	NS	s.de.net.
+de.			172800	IN	NS	n.de.net.
+de.			172800	IN	NS	a.nic.de.
+de.			172800	IN	NS	f.nic.de.
+de.			172800	IN	NS	l.de.net.
+de.			172800	IN	NS	z.nic.de.
+de.			86400	IN	DS	39227 8 2 AAB73083B9EF70E4A5E94769A418AC12E887FC3C0875EF206C3451DC 40B6C4FA
+de.			86400	IN	RRSIG	DS 8 1 86400 20190523050000 20190510040000 25266 . VEf3fO6cUNRpszQhqz+SY+sA20qy4zfBY0l+uG6QwWBdBA/kbo4IBWnd Hlh8GfFKFm4zp1hYLCQHQQQCoeuY10m1qH7czgxReQvxZqQNbWiOs74C X8HSzWxmuhkYDvOLCSizMNkj5Xf0dUDkZbXG7oxoKsOAvy7Ev17kSBS2 ujoWVCpxrtBDcf6OrwG2hRSd3VsLNdkOcgjKOJBpngqoPBo+JDTWLpXv /ovsLrrWYtc1KPs9mDvOtAfgZreoxEQ9GDWmDE/lO1CgGYv2bE9BPDuI BzcgE0Z8isxRvj5ia/9gcqn5oeXI+eU4WQX9hA3bb9lWBuExmZ3GKGrF 1B3FYA==
+;; Received 738 bytes from 198.41.0.4#53(a.root-servers.net) in 22 ms
+
+jacobs-university.de.	86400	IN	NS	dns.iu-bremen.de.
+jacobs-university.de.	86400	IN	NS	www.jacobs-utils.de.
+h319dm5gc3edek691vqbhehot7vggj2b.de. 7200 IN NSEC3 1 1 15 BA5EBA11 H31EGRUDRBMFSM3HAQ6AMG96SJB4QAVI  NS SOA RRSIG DNSKEY NSEC3PARAM
+h319dm5gc3edek691vqbhehot7vggj2b.de. 7200 IN RRSIG NSEC3 8 2 7200 20190517160105 20190510160105 26298 de. a6gFWXrlo/xMWCdej5oVYVEN4b00L8SJXoW/w1kl/1//BMRB1Y61RAxV hnX6w+g+gYymmJozyllACY934CJvSiMOPW1mFMrR1PpXc38Ynxm7wR9I Zuua9S1kEST2kJc5YO7E6f8kmedmmeGABCTGMOuHmdcFsZ8ZaH48UE/6 ooM=
+sfac58vbfnb14jpd7n2h5mole1o2l213.de. 7200 IN NSEC3 1 1 15 BA5EBA11 SFAEPI3LFEOB8NDDLF1S5816FTJPO3AS  A RRSIG
+sfac58vbfnb14jpd7n2h5mole1o2l213.de. 7200 IN RRSIG NSEC3 8 2 7200 20190517160105 20190510160105 26298 de. TlU97+DHfqNjHvVivwKlv561hKBwnt7+17wV0othdTLX3YJebGPEmzk4 wwWaRD+ts8zSoKEuoHIH7ZvYFYUubyiqKSlIeK2v9Ewms4s/WGAzi3Vl bwoJK/E9dymsUO/pTXNYOXfdYrU/puttLz7B+mEnQ7Es7cqdv3oT5KkO i9o=
+;; Received 611 bytes from 194.146.107.6#53(n.de.net) in 20 ms
+
+grader.eecs.jacobs-university.de. 3600 IN CNAME	cantaloupe.eecs.jacobs-university.de.
+cantaloupe.eecs.jacobs-university.de. 3600 IN AAAA 2001:638:709:3000::29
+eecs.jacobs-university.de. 3600	IN	NS	ns.eecs.jacobs-university.de.
+eecs.jacobs-university.de. 3600	IN	NS	dns.jacobs-university.de.
+eecs.jacobs-university.de. 3600	IN	NS	ns1.ibr.cs.tu-bs.de.
+;; Received 890 bytes from 212.201.44.22#53(dns.iu-bremen.de) in 3 ms
+
